@@ -826,16 +826,16 @@ function Dashboard({ onSignOut }) {
   // Add patient profile state
   const [profileData, setProfileData] = useState({
     personal: {
-      firstName: 'John',
-      lastName: 'Doe',
+      firstName: 'Rejone',
+      lastName: 'Shorker',
       gender: 'Male',
-      dateOfBirth: '1985-06-15',
-      bloodType: 'O+',
+      dateOfBirth: '2001-09-13',
+      bloodType: 'B+',
       height: 175, // cm
       weight: 70, // kg
-      phone: '+1 (555) 123-4567',
-      email: 'john.doe@example.com',
-      address: '123 Health Street, Medical District, NY 10001'
+      phone: '+88 01793-578464',
+      email: 'raxonkazi321@egmail.com',
+      address: 'Mirpur Dhaka 1216'
     },
     medical: {
       allergies: ['Penicillin', 'Peanuts'],
@@ -857,8 +857,7 @@ function Dashboard({ onSignOut }) {
       expiryDate: '2024-12-31'
     },
     emergencyContacts: [
-      { name: 'Jane Doe', relationship: 'Spouse', phone: '+1 (555) 987-6543' },
-      { name: 'Michael Doe', relationship: 'Brother', phone: '+1 (555) 456-7890' }
+      { name: 'Yunus Alo', relationship: 'Father', phone: '+88 01793-578464' }
     ]
   });
 
@@ -1098,7 +1097,7 @@ function Dashboard({ onSignOut }) {
             <span>JD</span>
           </div>
           <div className="user-info">
-            <h3>John Doe</h3>
+            <h3>Rejone Shorker</h3>
             <p>Patient ID: #12345</p>
           </div>
         </div>
